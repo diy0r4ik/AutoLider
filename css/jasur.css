@@ -53,16 +53,31 @@
 @media (max-width: 500px) {
     .text--big {
         line-height: 20px;
+        margin-bottom: 50px;
     }
     .pokemon__img {
-        top: 57%;
+        top: 40%;
         left: 0%;
   }
-}   
+} 
+@media(max-width:400px){
+    .pokemon__img {
+        top: 50%;
+        left: 0%;
+  }
+  .text--sub{
+    font-size: 10px;
+    margin-left: -15px;
+  }
+  .text--big {
+    font-size: 16px;
+    margin-left: -15px;
+}  
 .body {
     width: 80%;
     margin: 0 10%;
 }
 .pokemon__img {
     bottom: 20%;
+}
 }

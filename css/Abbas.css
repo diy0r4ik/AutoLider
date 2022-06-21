@@ -1104,9 +1104,9 @@ display: inline-block;
     display: none;
   }
   .text--sub{
-    margin-top: -50%;
-    font-size: 28px;
-    margin-bottom: -10px;
+    margin-top: -100%;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .pokemon__img{
