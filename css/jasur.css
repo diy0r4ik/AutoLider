@@ -1,0 +1,68 @@
+.cars_title {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    flex-direction: column;
+}
+.cars_title h1 {
+    color: #fff;
+    margin: 0 auto;
+}
+.cars_title p {
+    color: #fff;
+}
+
+#YMapsID {
+    width:80%;
+    height:45vh; 
+    margin: 0 auto; 
+    margin-bottom: 8rem;
+}
+
+@media (max-width: 991px) {
+    #YMapsID {
+     width: 100%;
+    }
+    .slider__navi a {
+        width: 10px;
+        height: 5px;
+    }
+    .body {
+        width: 700px;
+        margin: 0;
+        padding: 0;
+    }
+    .flex__item {
+        width: 50%;
+    }
+    .pokemon__img {
+        top: 50%;
+        /* height: 30vh; */
+    }
+    th {
+        font-weight: 100;
+    }
+    
+}
+@media (max-width: 500px) {
+    .text--big {
+        line-height: 20px;
+    }
+    .pokemon__img {
+        top: 57%;
+        left: 0%;
+  }
+}   
+.body {
+    width: 80%;
+    margin: 0 10%;
+}
+.pokemon__img {
+    bottom: 20%;
+}
