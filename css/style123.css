@@ -140,7 +140,6 @@ body{
     scroll-snap-align:center center
 }
  .swiper-virtual .swiper-slide{
-    -webkit-backface-visibility:hidden;
     transform:translateZ(0)
 }
  .swiper-virtual.swiper-css-mode .swiper-wrapper::after{
@@ -349,7 +348,6 @@ body{
  .swiper-scrollbar{
     border-radius:10px;
     position:relative;
-    -ms-touch-action:none;
     background:rgba(0,0,0,.1)
 }
  .swiper-scrollbar-disabled>.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-disabled{
